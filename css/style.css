@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Configuração Header*/
+
+.cabecalho-fundo {
+    background-color: #53687e;
+}
+
+.cabecalho {
+    font-size: 1.563rem;
+    font-weight: 550;
+    color: #eeecf0;
+}
+
+.navegacao ul li a{
+    color: #eeecf0;
+    font-weight: 550;
+}
+
+
+
+/* Configuração do Banner */
+
+.destaque {
+    background-color: #1a252f;
+}
+
+.es-icon-branco {
+    --ionicon-stroke-width: 16px;
+    font-size: 32px;
+    margin: 10px;
+    color: #eeecf0;
+  }
+
+.estrela-branca::before, .estrela-branca::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    background: #eeecf0;
+    margin-bottom: 20px;
+}   
+
+.meu-nome {
+    font-size: 3.438em;
+    font-weight: 700;
+    color: #eeecf0;
+}
+
+.descricao-baner {
+    color: #eeecf0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Configuração da Main*/
+
+.main div h2{
+   color: #2c3e51;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 16px;
+    font-size: 32px;
+    margin: 10px;
+    color:#2c3e51 ;
+  }
+  .estrela-divisor::before, .estrela-divisor::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    background: #2c3e51;
+    margin-bottom: 20px;
+}   
+
+
+.main div img{
+     width: 300px;
+     height: 200px;
+}
+
+.main div p{
+    font-weight: bold
+}
+
+.sobre-mim {
+    color: #eeecf0;
+}
+
+.texto-sobre-mim {
+    width: 30rem;
+}
+
+/*card*/
+
+.card {
+    width: 18rem;
+    border: none;
+}
+
+.card:hover::before {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '+';
+    font-size: 4rem;
+    color: #fff;
+    left: 0;
+    font-weight: 800;
+    top: 0;
+    background-color: rgba(78, 90, 113, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Modal */
+
+.modal-title {
+    font-size: 2rem;
+}
+
+/*contato*/
+
+.btn-primary {
+    width: 80px;
+    height: 55px;
+    background-color: rgba(78, 90, 113, 0.6);
+}
+
+.btn-primary:hover {
+    background-color: #53687e !important;
+}
+
+.form-control {
+    width: 29rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+}
+
+.form-label {
+    color: gray; 
+}
+
+.contato {
+    font-size: 2.5rem;
+}
+
+/*footer*/
+
+.pre-footer {
+    background-color: rgba(83,104,126,255);
+    color: #eeecf0;
+}
+
+.pre-footer ion-icon {
+    color: #eeecf0;
+}
+ 
+footer {
+    background-color: rgba(26,37,47,255);
+    color: #eeecf0;
+    height: 3rem;
+}
